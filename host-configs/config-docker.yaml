@@ -1,0 +1,17 @@
+project_root_dir: '/home/drenaj/drenaj/envs/production'
+
+mongo_bin_dir: '/usr/bin'
+mongo_host: 'mongodb_host'
+mongo_port: 27017
+
+drenaj_app_environment: 'production'
+drenaj_app_host: 'drenaj_server'
+
+broker_hostname: 'rabbitmq_host'
+
+# Obtain these from Twitter, see project wiki
+access_token_key: "788884670-zi7wAqsq0AINNY6kNTVRw78eXt3PzNtIaJJQE5Lj"
+access_token_secret: "WNsG44DfKdbUEXwG5byFcskFcz2lZxvvYJtq59GM"
+
+auth_user_id: 'drenaj'
+auth_password: 'tamtam'

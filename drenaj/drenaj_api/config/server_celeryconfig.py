@@ -2,10 +2,12 @@ __author__ = 'onur'
 
 from kombu import Queue
 
+from drenaj_api.config.config import BROKER_HOSTNAME
+
 CELERY_ACKS_LATE = True
 CELERYD_PREFETCH_MULTIPLIER = 1
 
-BROKER_URL = 'amqp://guest:guest@%s' % "drenaj-staging.cmpe.boun.edu.tr"
+BROKER_URL = 'amqp://guest:guest@%s' % BROKER_HOSTNAME
 
 CELERY_DEFAULT_QUEUE = 'control'
 
